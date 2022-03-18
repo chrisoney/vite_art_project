@@ -3,13 +3,13 @@ import {
   addNewImage,
   getSavedImageLength,
   getLink,
-} from './js/content_access';
+} from './js/content_access.js';
 
 import {
   generateIndexes,
-} from './js/image_generation';
+} from './js/image_generation.js';
 
-import { navigateImages } from './js/display';
+import { navigateImages } from './js/display.js';
 
 let viewIdx = 0;
 

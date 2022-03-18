@@ -1,5 +1,5 @@
-import { getSavedImage } from './content_access';
-import { drawImage } from './image_generation';
+import { getSavedImage } from './content_access.js';
+import { drawImage } from './image_generation.js';
 
 const navigateImages = (viewIdx) => {
   if (viewIdx > 0) {
