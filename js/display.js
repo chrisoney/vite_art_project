@@ -1,5 +1,5 @@
-const { getSavedImage } = require('./content_access');
-const { drawImage } = require('./image_generation');
+import { getSavedImage } from './content_access';
+import { drawImage } from './image_generation';
 
 const navigateImages = (viewIdx) => {
   if (viewIdx > 0) {
@@ -44,6 +44,6 @@ const populatePage = (title, imageString, homePage) => {
 }
 
 
-module.exports = {
+export {
   navigateImages
 }

@@ -1,15 +1,15 @@
-const {
+import {
   checkExistence,
   addNewImage,
   getSavedImageLength,
   getLink,
-} = require('./js/content_access');
+} from './js/content_access';
 
-const {
+import {
   generateIndexes,
-} = require('./js/image_generation');
+} from './js/image_generation';
 
-const { navigateImages } = require('./js/display');
+import { navigateImages } from './js/display';
 
 let viewIdx = 0;
 
