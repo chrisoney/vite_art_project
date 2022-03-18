@@ -1,4 +1,4 @@
-import { lyrics, savedImages, links } from '/content';
+import { lyrics, savedImages, links } from './content';
 
 const checkExistence = (indexString) => {
   return savedImages.includes(indexString);
