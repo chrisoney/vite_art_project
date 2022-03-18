@@ -1,5 +1,5 @@
-import { lyrics } from './content';
-import { getLyric } from './content_access';
+import { lyrics } from '/content';
+import { getLyric } from '/content_access';
 
 const generateIndexes = () => {
   const lyricIdx = Math.floor(Math.random() * lyrics.length);

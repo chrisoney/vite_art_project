@@ -1,18 +1,18 @@
-import './styles/reset.css'
-import './styles/style.css'
+import '/styles/reset.css'
+import '/styles/style.css'
 
 import {
   checkExistence,
   addNewImage,
   getSavedImageLength,
   getLink,
-} from './js/content_access';
+} from '/js/content_access';
 
 import {
   generateIndexes,
-} from './js/image_generation';
+} from '/js/image_generation';
 
-import { navigateImages } from './js/display';
+import { navigateImages } from '/js/display';
 
 let viewIdx = 0;
 
