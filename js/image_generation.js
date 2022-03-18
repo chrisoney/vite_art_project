@@ -1,5 +1,5 @@
-import { lyrics } from './content';
-import { getLyric } from './content_access';
+const { lyrics } = require('./content');
+const { getLyric } = require('./content_access');
 
 const generateIndexes = () => {
   const lyricIdx = Math.floor(Math.random() * lyrics.length);
@@ -69,7 +69,7 @@ const splitAndPrintText = (lyric, context, x, y, maxWidth, lineHeight) => {
 }
 
 
-export {
+module.exports = {
   generateIndexes,
   drawImage
 }

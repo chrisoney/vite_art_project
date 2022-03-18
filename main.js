@@ -1,18 +1,15 @@
-import './styles/reset.css'
-import './styles/style.css'
-
-import {
+const {
   checkExistence,
   addNewImage,
   getSavedImageLength,
   getLink,
-} from './js/content_access';
+} = require('./js/content_access');
 
-import {
+const {
   generateIndexes,
-} from './js/image_generation';
+} = require('./js/image_generation');
 
-import { navigateImages } from './js/display';
+const { navigateImages } = require('./js/display');
 
 let viewIdx = 0;
 

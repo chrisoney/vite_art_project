@@ -73,4 +73,4 @@ const links = {
   'spotify': 'https://open.spotify.com/artist/1NtYiv70buGwaMspHuD49I'
 }
 
-export  { lyrics, savedImages, links }
+module.exports = { lyrics, savedImages, links }

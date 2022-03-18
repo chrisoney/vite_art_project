@@ -1,4 +1,4 @@
-import { lyrics, savedImages, links } from './content';
+const { lyrics, savedImages, links } = require('./content');
 
 const checkExistence = (indexString) => {
   return savedImages.includes(indexString);
@@ -24,7 +24,7 @@ const getLink = (linkName) => {
   return links[linkName];
 }
 
-export {
+module.exports = {
   checkExistence,
   addNewImage,
   getSavedImage,
